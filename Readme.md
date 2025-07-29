@@ -7,7 +7,7 @@ This project was developed as my final year National Diploma (ND) project in Com
 ## 🚀 Project Objective
 
 To design and implement a system that:
-- Accepts IPv4 and IPv6 addresses as input.
+- Accepts IPv4 addresses as input.
 - Determines key characteristics (such as class, type, and range).
 - Identifies potential limitations or conflicts.
 - Provides visual and tabular representations of the results.
@@ -18,8 +18,8 @@ To design and implement a system that:
 ## 📂 Project Structure
 
 📁 src/ # Source code files
-│ ├── IP1.py # Core IPv4 analysis logic
-│ └── IP2.py # IPv6 structure and logic
+│ ├── ipv4_analyzer.py # Core IPv4 analysis logic
+│ └── ipv4_analyzer-gui.py # IPv6 structure and logic
 │README.md # Project description and usage guide
 
 ---
@@ -65,12 +65,13 @@ To design and implement a system that:
    git clone https://github.com/eyosam/IP-Address-Analyzing-System.git
    cd IP-Address-Analyzing-System/src
 
+
 ---
 
 ## Run the analysis
 
-python IP1.py   # For IPv4 analysis
-python IP2.py   # For IPv6 analysis
+python ipv4_analyzer.py   # For IPv4 analysis
+python ipv4_analyzer-gui.py   # For IPv6 analysis
 Make sure Python is installed. You may need to install additional libraries if required by the script
 
 ---
